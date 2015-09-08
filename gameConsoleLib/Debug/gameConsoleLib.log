@@ -1,0 +1,27 @@
+﻿Build started 11.06.2015 10:39:52.
+     1>Project "C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\gameConsoleLib\gameConsoleLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML\SFML-2.1\include" /I"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\gameConsoleLib" /I"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\View" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Model.cpp
+         Model.cpp
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\gameconsolelib\model.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\gameconsolelib\model.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Debug\Model.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" /LIBPATH:"C:\SFML\SFML-2.1\lib" /NOLOGO Debug\Animated.obj
+         Debug\Character.obj
+         Debug\Level.obj
+         Debug\Model.obj
+         Debug\Object.obj
+     1>sfml-window-d.lib(sfml-window-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-window-d.lib(sfml-window-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-system-d.lib(sfml-system-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-system-d.lib(sfml-system-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-audio-d.lib(sfml-audio-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-audio-d.lib(sfml-audio-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-network-d.lib(sfml-network-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-network-d.lib(sfml-network-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         gameConsoleLib.vcxproj -> C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Debug\Model.lib
+     1>Done Building Project "C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\gameConsoleLib\gameConsoleLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72

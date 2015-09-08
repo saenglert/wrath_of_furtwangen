@@ -1,0 +1,33 @@
+﻿Der Buildvorgang wurde am 07.02.2015 21:57:17 gestartet.
+     1>Projekt "C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsoleLib\gameConsoleLib.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML\SFML-2.1\include" /I"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsoleLib" /I"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\View" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Animated.cpp Character.cpp Level.cpp Model.cpp Object.cpp
+         Animated.cpp
+     1>Animated.cpp(74): warning C4244: 'Argument': Konvertierung von 'int' in 'float', möglicher Datenverlust
+         Character.cpp
+         Level.cpp
+     1>Level.cpp(106): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>Level.cpp(115): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>Level.cpp(126): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+         Model.cpp
+     1>Model.cpp(52): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>Model.cpp(57): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+         Object.cpp
+     1>Object.cpp(26): warning C4244: 'Argument': Konvertierung von 'int' in 'float', möglicher Datenverlust
+     1>Object.cpp(37): warning C4244: 'Argument': Konvertierung von 'int' in 'float', möglicher Datenverlust
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Model.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-network.lib" /LIBPATH:"C:\SFML\SFML-2.1\lib" /NOLOGO /LTCG Release\Animated.obj
+         Release\Character.obj
+         Release\Level.obj
+         Release\Model.obj
+         Release\Object.obj
+     1>sfml-window.lib(sfml-window-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-graphics.lib(sfml-graphics-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-system.lib(sfml-system-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-graphics.lib(sfml-graphics-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-audio.lib(sfml-audio-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-graphics.lib(sfml-graphics-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-network.lib(sfml-network-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-graphics.lib(sfml-graphics-2.dll)" definiert; zweite Definition wird ignoriert.
+         gameConsoleLib.vcxproj -> C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Model.lib
+     1>Die Erstellung des Projekts "C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsoleLib\gameConsoleLib.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:07.29

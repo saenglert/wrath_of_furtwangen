@@ -1,0 +1,32 @@
+﻿Der Buildvorgang wurde am 07.02.2015 21:57:24 gestartet.
+     1>Projekt "C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsole\gameConsole.vcxproj" auf Knoten "3", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsoleLib" /I"C:\SFML\SFML-2.1\include" /I"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\View" /I"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Controller" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML\SFML-2.1\lib" /LIBPATH:"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Debug" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Game.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         ..\Debug\Controller.lib
+         ..\Debug\Model.lib
+         ..\Debug\View.lib
+     1>Controller.lib(Controller.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Controller.lib(Controller.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>Controller.lib(Controller.obj) : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /OPT:ICF ignoriert.
+     1>Model.lib(Level.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Model.lib(Level.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>Model.lib(Model.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Model.lib(Model.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>Model.lib(Object.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Model.lib(Object.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>Model.lib(Animated.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Model.lib(Animated.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>Model.lib(Character.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>Model.lib(Character.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>View.lib(View.obj) : error LNK2038: Konflikt ermittelt für "_ITERATOR_DEBUG_LEVEL": Der Wert "2" stimmt nicht mit dem Wert "0" in Source.obj überein.
+     1>View.lib(View.obj) : error LNK2038: Konflikt ermittelt für "RuntimeLibrary": Der Wert "MDd_DynamicDebug" stimmt nicht mit dem Wert "MD_DynamicRelease" in Source.obj überein.
+     1>LINK : warning LNK4098: Standardbibliothek "MSVCRTD" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+     1>C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\Release\Game.exe : fatal error LNK1319: 14 Konflikte ermittelt
+     1>Die Erstellung des Projekts "C:\Users\Jan\Documents\Visual Studio 2012\Projects\gameConsole\gameConsole\gameConsole.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:03.11

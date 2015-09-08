@@ -1,0 +1,32 @@
+﻿Build started 09.02.2015 12:30:34.
+     1>Project "C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Controller\Controller.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML\SFML-2.1\include" /I"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Controller" /I"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\gameConsoleLib" /I"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\View" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(95): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(169): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(171): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(180): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(187): warning C4715: 'Controller::playerCollisionLeft' : not all control paths return a value
+     1>c:\users\sascha\documents\visual studio 2012\projects\jan\controller\controller.cpp(201): warning C4715: 'Controller::playerCollisionRight' : not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Debug\Controller.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" /LIBPATH:"C:\SFML\SFML-2.1\lib" /NOLOGO Debug\Controller.obj
+     1>sfml-window-d.lib(sfml-window-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-window-d.lib(sfml-window-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-system-d.lib(sfml-system-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-system-d.lib(sfml-system-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-audio-d.lib(sfml-audio-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-audio-d.lib(sfml-audio-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>sfml-network-d.lib(sfml-network-d-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sfml-graphics-d.lib(sfml-graphics-d-2.dll); second definition ignored
+     1>sfml-network-d.lib(sfml-network-d-2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Controller.vcxproj -> C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Debug\Controller.lib
+     1>Done Building Project "C:\Users\Sascha\Documents\Visual Studio 2012\Projects\jan\Controller\Controller.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
